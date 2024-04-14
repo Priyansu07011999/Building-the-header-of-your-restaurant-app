@@ -3,11 +3,11 @@ import veg from '../../assets/meals.jpg';
 import classes from './Header.module.css'; // Importing CSS module
 import HeaderCardButton from './HeaderCardButton';
 
-const Header = (props) => {
+const Header = () => {
   return (
     <>
       <header className={classes.header}>
-        <h1>ReactMeals</h1>
+        <h1 className='text-3xl'>ReactMeals</h1>
         <HeaderCardButton />
       </header>
       <div className={classes['main-image']}>
